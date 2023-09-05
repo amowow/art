@@ -19,7 +19,7 @@
     margin-left: 5rem;
     padding: 1rem;
   }
-  
+
 /* Contact page styles */
 .contact {
   background-color: #f7f7f7;
@@ -257,12 +257,16 @@ button[type="submit"]:hover {
   @media screen and (max-width:600px){
 
 .contact h1 {
+  position: relative;
+  bottom: 80px;
   font-size: 2rem;
   margin-bottom: 1rem;
   margin-left: 6.3rem;
 }
 
 .contact p {
+  position: relative;
+  bottom: 80px;
   margin-left: 6rem;
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
@@ -270,6 +274,8 @@ button[type="submit"]:hover {
 }
 
 #contact-form {
+  position: relative;
+  bottom: 80px;
   margin-top: 2rem;
 }
 
