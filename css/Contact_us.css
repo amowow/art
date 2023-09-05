@@ -118,6 +118,7 @@ button[type="submit"]:hover {
   
   
   .navbar{
+    z-index: 1;
     width: 5rem;
     height: 100%;
     position: fixed;
@@ -305,7 +306,7 @@ textarea {
 }
 
 button[type="submit"] {
-  margin-bottom: 250px;
+  margin-bottom: 400px;
   margin-left: 88px;
   background-color: #007BFF;
   color: #fff;
